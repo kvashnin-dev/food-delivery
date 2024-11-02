@@ -1,0 +1,39 @@
+/* @font-face {
+    font-family: 'Martel Sans Bold';
+    src: url("../fonts/Martel_Sans/MartelSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Martel Sans Light';
+    src: url("../fonts/Martel_Sans/MartelSans-Light.ttf");
+}
+
+@font-face {
+    font-family: 'Martel Sans ExtraBold';
+    src: url("../fonts/Martel_Sans/MartelSans-ExtraBold.ttf");
+} */
+
+@font-face {
+    font-family: 'Martel_Sans';
+    src: url("../fonts/Martel_Sans/MartelSans-Regular.ttf");
+}
+
+/* @font-face {
+    font-family: 'Poppins Light';
+    src: url("../fonts/Poppins/Poppins-Light.ttf");
+}
+
+@font-face {
+    font-family: 'Poppins SemiBold';
+    src: url("../fonts/Poppins/Poppins-SemiBold.ttf");
+} */
+
+@font-face {
+    font-family: 'Poppins';
+    src: url("../fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/Open_Sans/OpenSans_Condensed-Bold.ttf");
+}

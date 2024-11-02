@@ -1,0 +1,49 @@
+:root {
+	--white: #fff;
+	--text-dark: #313030;
+	--gray-dark: #3f4255;
+	--gray-second-text: #9093a6;
+	--gray-light: #d4d7e5;
+	--gray-bg: #f2f4fa;
+	--brand-yellow-bright: #ffe145;
+	--brand-yellow-dark: #b79c10;
+	--brand-yellow-light: #fff7cc;
+}
+
+:root {
+    --font-family: "Martel Sans", sans-serif;
+    --second-family: "Poppins", sans-serif;
+    --third-family: "Open Sans Condensed", sans-serif;
+}
+
+.header {
+    display: flex; /* Используем flexbox для расположения элементов */
+    justify-content: space-between; /* Элементы на краях с равным пространством между ними */
+    align-items: center; /* Центрируем элементы по вертикали */
+    padding: 0 12.5%;
+    height: 72px;
+}
+
+/* .header__navbar {
+    
+} */
+
+.header__navbar__link {
+    text-decoration: none;
+}
+
+.header__navbar__text {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--gray-second-text);
+}
+
+.header__navbar__button {
+    border: none;
+    border-radius: 25px;
+    width: 48px;
+    height: 48px;
+    box-shadow: 0 8px 40px 0 rgba(0, 0, 0, 0.08);
+    background: var(--white);
+}
