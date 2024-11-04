@@ -25,7 +25,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 12.5%;
+    padding: 0 6%;
     height: 72px;
 }
 
@@ -62,24 +62,51 @@ body {
 }
 
 .banner {
+    padding: 0 6%;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner__header {
+    width: 45%; /* Левый блок с заголовком и кнопками */
+    transform: translateY(15%);
+}
+
+.banner__content {
+    position: relative;
+    width: 55%; /* Правый блок */
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
 .banner__title {
     font-family: var(--second-family);
     font-weight: 300;
     font-size: 58px;
+    line-height: 110%;
+    letter-spacing: 0.05em;
     color: var(--gray-dark);
+    
+    margin-bottom: 90px;
 }
 
-.banner__button {
+.banner__actions {
+    display: flex;
+    gap: 25px;
+}
+
+.banner__actions__button {
     background-color: #fff;
     border: 2px solid var(--brand-yellow-bright);
     border-radius: 4px;
     padding: 16px 24px;
+    
     width: 120px;
     height: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .banner__button__text {
@@ -92,4 +119,62 @@ body {
 .banner__button__small-text {
     font-weight: 400;
     font-size: 12px;
+}
+
+.banner__arrow {
+    position: absolute;
+    bottom: 5%;
+    right: 8%;
+    stroke: var(--text-dark);   
+}
+
+.banner__decscription {
+    position: absolute;
+
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: var(--text-dark);
+}
+
+.banner__main-photo {
+    max-width: 100%;
+}
+
+.banner__secondary-photo {
+    position: absolute;
+    top: 70%;
+    left: -25%;
+    transform: translateY(-50%);
+}
+
+.banner__feautre {
+    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
+
+    height: 105px;
+    padding: 0 6%;
+    transform: translateY(-30%);
+    width: 50%;
+    display: flex;
+    gap: 30px;
+}
+
+.banner__feautre__item {
+    display: flex;
+    align-items: center;
+}
+
+.banner__feautre__item__icon {
+    margin-right: 15px;
+}
+
+.banner__feautre__text {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: var(--gray-dark);
 }
