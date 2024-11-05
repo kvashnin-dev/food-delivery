@@ -34,21 +34,21 @@ body {
     gap: 48px;
 }
 
-.header__navbar__link {
+.header__navbar-link {
     display: flex;
     align-items: center;
     text-decoration: none;
     gap: 5px;
 }
 
-.header__navbar__text {
+.header__navbar-text {
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 16px;
     color: var(--gray-second-text);
 }
 
-.header__navbar__button {
+.header__navbar-button {
     border: none;
     border-radius: 25px;
     width: 48px;
@@ -96,7 +96,7 @@ body {
     gap: 25px;
 }
 
-.banner__actions__button {
+.banner__actions-button {
     background-color: #fff;
     border: 2px solid var(--brand-yellow-bright);
     border-radius: 4px;
@@ -124,11 +124,11 @@ body {
 .banner__arrow {
     position: absolute;
     bottom: 5%;
-    right: 8%;
+    right: 11%;
     stroke: var(--text-dark);   
 }
 
-.banner__decscription {
+.banner__description {
     position: absolute;
 
     font-family: var(--font-family);
@@ -139,18 +139,18 @@ body {
     color: var(--text-dark);
 }
 
-.banner__main-photo {
+.banner__photo--main {
     max-width: 100%;
 }
 
-.banner__secondary-photo {
+.banner__photo--secondary {
     position: absolute;
     top: 70%;
     left: -25%;
     transform: translateY(-50%);
 }
 
-.banner__feautre {
+.features {
     box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.08);
 
     height: 105px;
@@ -161,16 +161,16 @@ body {
     gap: 30px;
 }
 
-.banner__feautre__item {
+.features__item {
     display: flex;
     align-items: center;
 }
 
-.banner__feautre__item__icon {
+.features__icon {
     margin-right: 15px;
 }
 
-.banner__feautre__text {
+.features__text {
     font-family: var(--font-family);
     font-weight: 300;
     font-size: 16px;
