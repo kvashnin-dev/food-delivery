@@ -21,12 +21,24 @@ body {
     padding: 0;
 }
 
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 6%;
     height: 72px;
+}
+
+.header__logo {
+    width: 185px; /* Устанавливаем желаемую ширину */
+    height: 24px; /* Устанавливаем желаемую высоту */
+    background-image: url('../images/Logo.png');
 }
 
 .header__navbar {
