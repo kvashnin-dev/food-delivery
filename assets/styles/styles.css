@@ -35,12 +35,6 @@ body {
     height: 72px;
 }
 
-.header__logo {
-    width: 185px; /* Устанавливаем желаемую ширину */
-    height: 24px; /* Устанавливаем желаемую высоту */
-    background-image: url('../images/Logo.png');
-}
-
 .header__navbar {
     display: flex;
     gap: 48px;
@@ -92,7 +86,7 @@ body {
     justify-content: flex-end;
 }
 
-.banner__title {
+.title {
     font-family: var(--second-family);
     font-weight: 300;
     font-size: 58px;
@@ -108,7 +102,7 @@ body {
     gap: 25px;
 }
 
-.banner__actions-button {
+.banner__button {
     background-color: #fff;
     border: 2px solid var(--brand-yellow-bright);
     border-radius: 4px;
