@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Martel_Sans';
+    src: url("../fonts/Martel_Sans/MartelSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url("../fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../fonts/Open_Sans/OpenSans_Condensed-Bold.ttf");
+}
